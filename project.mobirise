@@ -1,0 +1,168 @@
+{
+  "settings": {
+    "name": "bscsacn",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.1.12",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/bscscan-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://bscsacn.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://bscsacn.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "fkk0ll5kdy",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 3,
+    "versionPublish": "6.1.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "BNB Smart Chain Explorer | BSCScan",
+        "meta_descr": "BscScan is a Blockchain Explorer For the BNB Smart Chain That Allows Users to Track Transactions, View Wallet Activity, Analyze Tokens, and Verify Smart Contracts in Real time.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://bscscan.com/\"><img src=\"@PROJECT_PATH@/assets/images/bscscan-p1.png\" alt=\"bscscan\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmpm1JjBsp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://bscscan.com/\"><img src=\"@PROJECT_PATH@/assets/images/bscscan-p2.png\" alt=\"bscscan\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vmpm1WU1A7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>BNB Smart Chain Explorer | <a href=\"https://bscscan.com/\" class=\"text-primary\">BSCScan</a></b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan</a>: A Comprehensive Guide to the BNB Smart Chain Explorer</b></h4>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>is one of the most widely used blockchain explorers for the BNB Smart Chain ecosystem. It provides users with a transparent, real-time view of on-chain activity, allowing anyone to track transactions, verify smart contracts, analyze tokens, and explore wallet activity on the network.<br><br>Built specifically for the BNB Smart Chain (<b>formerly Binance Smart Chain</b>), <a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>plays a crucial role in making blockchain data accessible to everyday users, developers, and analysts. It functions similarly to how a search engine works for the internet—except here, it indexes blockchain data.<br><br><b>What is BscScan?</b><br><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>is a blockchain explorer designed to index and display data from the BNB Smart Chain. It is developed and maintained by the same team behind Etherscan, one of the most popular Ethereum explorers.<br>At its core, <b>BscScan allows users to:</b><br><b>1.</b> View transaction histories <b>2.</b>Track wallet balances&nbsp; <b>3.</b>Analyze token movements (BEP-20 tokens)&nbsp; &nbsp;<b>4.</b> Read and verify smart contracts&nbsp; <b>5.</b> Monitor network activity in real time<br><b>:&gt;</b> It brings transparency to a decentralized network by making blockchain data easy to search and interpret.<br><br><b>Key Features of BscScan<br>1. Transaction Tracking :&gt;</b><br>Every transaction on the BNB Smart Chain is recorded publicly. <a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>allows users to enter a transaction hash and instantly see:<br><b>:&gt;</b>Sender and receiver addresses&nbsp; <b>:&gt;</b>Transaction value&nbsp; <b>:&gt;</b>Gas fees&nbsp; <b>:&gt;</b>Confirmation status<br><b>//</b> This is especially useful for verifying payments or investigating transfers.<br><b>2. Wallet and Address Lookup :&gt;</b><br>Users can search any wallet address to view:<br><b>:&gt;</b> Token holdings&nbsp; <b>:&gt;</b> Transaction history&nbsp; <b>:&gt;</b> Internal transactions&nbsp; <b>:&gt;</b> Interaction with smart contracts<br><b>//</b> This helps users audit wallets or follow large fund movements (“whale tracking”).<br><b>3. Token Explorer :&gt;</b><br><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>supports detailed information on BEP-20 tokens, including:<br><b>:&gt;</b> Total supply&nbsp; <b>:&gt;</b>Holders distribution&nbsp;<b> :&gt;</b>Transfer history&nbsp; <b>:&gt;</b>Contract verification status<br><b>//</b> This is critical for evaluating new or trending tokens in the ecosystem.<br><b>4. Smart Contract Verification :&gt;</b><br>Developers can publish and verify smart contract source code on BscScan. Verified contracts:<br><b>:&gt;</b> Improve transparency&nbsp; &nbsp; &nbsp; &nbsp; <b>:&gt;</b> Reduce fraud risk<br><b>:&gt;</b> Allow users to read contract logic before interacting<br><b>//</b> This feature is essential for decentralized finance (DeFi) applications.<br><b>5. Gas Tracker and Analytics :&gt;</b><br><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>provides real-time network statistics such as:<br><b>:&gt;</b> Gas prices&nbsp;<b> :&gt;</b> Block time&nbsp;<b> :&gt;</b> Network congestion&nbsp;<b> :&gt;&nbsp;</b>Active validators<br><b>//</b> These metrics help users optimize transaction timing and costs.<br><b>6. API for Developers :&gt;</b><br><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>also offers an API that allows developers to:<br><b>:&gt;</b> Pull blockchain data programmatically&nbsp;<b> :&gt;</b> Build dashboards and analytics tools<br><b>:&gt;</b> Integrate on-chain data into apps<br><br><b>How to Use BscScan</b><br>Using BscScan is straightforward:<br><b>1.</b>&nbsp; Visit the <a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan website</a><br><b>2.</b> Enter a wallet address, transaction hash, or token name in the search bar<br><b>3. </b>Browse detailed on-chain data instantly<br><b>For example:</b><br><b>1.</b>&nbsp; &nbsp;Paste a transaction hash to verify a transfer <br><b>2.</b>&nbsp; Enter a wallet address to check token balances<br><b>3.</b>&nbsp; Search a token to analyze its supply and holders<br>No account is required for basic use.<br><br><b>Common Use Cases //<br>DeFi Users :/</b><br>DeFi participants use BscScan to:<br><b>1.</b> Verify staking or yield farming transactions&nbsp; &nbsp; &nbsp; <b>2.</b> Track liquidity pool activity<br><b>3.</b> Check token approvals&nbsp; &nbsp; &nbsp; &nbsp; <b>4.</b> Investors and Traders<br><b>Traders rely on it for:<br>1.</b>&nbsp; &nbsp;Monitoring whale movements&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>2.</b> Identifying token distribution patterns<br><b>3.&nbsp;</b> Detecting unusual transaction activity<br><br><b>Limitations of BscScan //</b><br>Despite its usefulness, BscScan has limitations:<br><b>1.</b>&nbsp; It does not control or validate blockchain data; it only displays it<br><b>2.</b> It cannot reverse transactions or recover lost funds<br><b>3.</b> Interpretation of data still requires user understanding<br><b>4.</b> Scam tokens may still appear unless carefully verified<br>Users should always combine BscScan data with independent research.<br><br><b>Conclusion ://</b><br><a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>is an essential tool for anyone interacting with the BNB Smart Chain. It enhances transparency, improves security awareness, and empowers users with direct access to blockchain data.<br><br>Whether you're a beginner checking your first crypto transaction or a developer building decentralized applications, <a href=\"https://bscscan.com/\" class=\"text-primary\">BscScan </a>serves as a foundational tool for navigating the BNB Smart Chain ecosystem.</p>\n              </div>\n            </div>\n            \n            \n            \n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vmpm2YJ5Or",
+          "_anchor": "article07-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
